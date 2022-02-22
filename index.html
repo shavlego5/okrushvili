@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Shavlego Botchorishvili">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon.png">
+    <title>Okruashvili</title>
+</head>
+
+<body id="body">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0"
+        nonce="d9i5ZEKf"></script>
+    <div id="menu-button" onclick="openMenu()">
+        Menu
+    </div>
+    <div id="menu">
+        <a href="#about" onclick="closeMenu()">
+            About Me
+        </a>
+        <a href="#work" onclick="closeMenu()">
+            My Works
+        </a>
+        <a href="#service" onclick="closeMenu()">
+            Service
+        </a>
+        <a href="#shop" onclick="closeMenu()">
+            Shopping
+        </a>
+        <a href="#contact" onclick="closeMenu()">
+            Contact
+        </a>
+        <a href="">
+            <img src="images/georgia.png" alt="">
+        </a>
+    </div>
+    <img src="images/scissor.gif" alt="" id="scissor">
+    <div class="social">
+        <a href="">
+            <p>
+                Facebook
+            </p>
+            <div>
+                <img src="images/facebook-sketched-social-letter-logo-outline.png" alt="">
+            </div>
+        </a>
+        <a href="">
+            <p>
+                Instagram
+            </p>
+            <div>
+                <img src="images/instagram-sketched-logo.png" alt="">
+            </div>
+        </a>
+        <a href="">
+            <p>
+                Instagram
+            </p>
+            <div>
+                <img src="images/love-or-like-heart-sketched-outlined-symbol.png" alt="">
+            </div>
+        </a>
+    </div>
+    <div id="top">
+        <p onclick="window.scroll({
+            top: 1,
+            behavior: 'smooth'
+          })" class="explore">
+            Explore
+        </p>
+        <div id="logo">
+            <p onclick="window.scroll({
+                    top: 0,
+                    behavior: 'smooth'
+                  });">
+                Okruashvili
+            </p>
+            <img src="images/logo.png" alt="ოქრუაშვილი">
+        </div>
+    </div>
+    <div id="space"></div>
+    <div id="about">
+        <img src="images/about.png" alt="">
+        <span>
+            <h1>Sonia Okruashvili</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including like Aldus PageMaker including like Aldus
+                PageMaker including versions of Lorem Ipsum.
+            </p>
+        </span>
+    </div>
+    <div id="work">
+        <div class="work-container">
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="0" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="0">
+                    <div class="front">
+                        <img src="images/work-0.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-0.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="1" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="1">
+                    <div class="front">
+                        <img src="images/work-1.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="2" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="2">
+                    <div class="front">
+                        <img src="images/work-2.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="3" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="3">
+                    <div class="front">
+                        <img src="images/work-3.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="4" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="4">
+                    <div class="front">
+                        <img src="images/work-4.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="5" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="5">
+                    <div class="front">
+                        <img src="images/work-5.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="6" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="6">
+                    <div class="front">
+                        <img src="images/work-6.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="7" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="7">
+                    <div class="front">
+                        <img src="images/work-7.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-7.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="8" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="8">
+                    <div class="front">
+                        <img src="images/work-8.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-8.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="rotate" onclick="rotate(event)" data-rotate="9" data-direction="back">
+                    <img src="images/rotate.png" alt="">
+                </div>
+                <div class="flip-container" onclick="openModal(event)" data-modal="9">
+                    <div class="front">
+                        <img src="images/work-9.png" alt="">
+                    </div>
+                    <div class="back">
+                        <img src="images/work-9.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="service">
+        <h1>
+            What can i create for You???
+        </h1>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including like Aldus PageMaker including like Aldus
+            PageMaker including versions of Lorem Ipsum.
+        </p>
+        <a href="#contact">
+            Contact Me
+        </a>
+    </div>
+    <div id="shop">
+        <div class="shop-container">
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="0">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="0" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="0">
+                        <div class="front">
+                            <img src="images/work-0.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-0.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <h1 class="back-text">
+                        Description
+                    </h1>
+                    <p class="back-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="0">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="1">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="1" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="1">
+                        <div class="front">
+                            <img src="images/work-1.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="1">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="2">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="2" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="2">
+                        <div class="front">
+                            <img src="images/work-2.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="2">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="3">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="3" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="3">
+                        <div class="front">
+                            <img src="images/work-3.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="3">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="4">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="4" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="4">
+                        <div class="front">
+                            <img src="images/work-4.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="4">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="5">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="5" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="5">
+                        <div class="front">
+                            <img src="images/work-5.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="5">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="6">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="6" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="6">
+                        <div class="front">
+                            <img src="images/work-6.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="6">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="7">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="7" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="7">
+                        <div class="front">
+                            <img src="images/work-7.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="7">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="8">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="8" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="8">
+                        <div class="front">
+                            <img src="images/work-8.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="8">
+                        back
+                    </span>
+                </div>
+            </div>
+            <div class="flip-shop">
+                <div class="details">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <span class="button" onclick="front(event)" data-shop="9">
+                        Details
+                    </span>
+                </div>
+                <div class="shop-front">
+                    <div class="rotate" onclick="rotateShop(event)" data-yyy="9" data-shopDirection="back">
+                        <img src="images/rotate.png" alt="">
+                    </div>
+                    <div class="flip-container shop-flip-container" onclick="openModalShop(event)" data-xxx="9">
+                        <div class="front">
+                            <img src="images/work-9.png" alt="">
+                        </div>
+                        <div class="back">
+                            <img src="images/work-9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-back">
+                    <p>
+                        Size: S, M, L, XL
+                    </p>
+                    <p>
+                        Price: 100 &#8382;
+                    </p>
+                    <p>
+                        Material: Cotton
+                    </p>
+                    <p>
+                        Color: Red
+                    </p>
+                    <span class="button" onclick="back(event)" data-shop="9">
+                        back
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div id="video">
+            <video src="videos/fashion_Trim.mp4" autoplay loop muted="true"></video>
+        </div>
+        <div id="contact-top">
+            <h1>
+                Contact Me
+            </h1>
+        </div>
+        <div id="giraffe">
+            <div class="contact-form">
+                <a href="tel:">+995 599 99 99 99</a>
+                <a href="mailto:">okruashvili@gmail.com</a>
+                <h3>
+                    If you like my page
+                </h3>
+                <img src="images/down-sketched-arrow.png" alt="">
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width=""
+                    data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+            </div>
+        </div>
+    </div>
+    <div id="modal">
+        <div id="close" onclick="closeModal()">
+            <img src="images/close.png" alt="">
+        </div>
+
+        <div id="prev" onclick="prev()">
+            <img src="images/next.png" alt="">
+        </div>
+        <div id="next" onclick="next()">
+            <img src="images/next.png" alt="">
+        </div>
+    </div>
+
+    <div id="modal-shop">
+        <div id="closeShop" onclick="closeModalShop()">
+            <img src="images/close.png" alt="">
+        </div>
+
+        <div id="prevShop" onclick="prevShop()">
+            <img src="images/next.png" alt="">
+        </div>
+        <div id="nextShop" onclick="nextShop()">
+            <img src="images/next.png" alt="">
+        </div>
+    </div>
+
+    <footer id="footer">
+        Designed and Created By : <a href="http://shavlego-botchorishvili.ge/" target="_blank">Shavlego
+            Botchorishvili</a>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector("#service p"), {
+            max: 10,
+            speed: 400
+        });
+        VanillaTilt.init(document.querySelector(".contact-form"), {
+            max: 5,
+            speed: 400
+        });
+    </script>
+</body>
+
+</html>
